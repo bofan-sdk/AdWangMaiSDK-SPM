@@ -1,6 +1,0 @@
-framework module QuMengAdSDK {
-  umbrella header "QuMengAdSDK.h"
-  export *
-
-  module * { export * }
-}
