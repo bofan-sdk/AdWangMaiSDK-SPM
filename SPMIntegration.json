@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "package": "AdWangMaiSDK",
+  "version": "0.1.0",
+  "resources": {
+    "AdWangMaiSDKSupport": [
+      "adwangmai_sdk.bundle",
+      "AdWangMaiSDKPrivacy.bundle"
+    ],
+    "XAdIQYAdSDKSupport": [
+      "QYResource.bundle"
+    ],
+    "XAdFunteeSDKAdSupport": [
+      "XrsImage.bundle"
+    ],
+    "XAdQMAdSupport": [],
+    "XAdSigmobAdSupport": [
+      "WindFoundationPrivacy.bundle",
+      "WindSDKPrivacy.bundle"
+    ]
+  },
+  "adapters": {
+    "XAdIQYAdSDK": [
+      "QySdk"
+    ],
+    "XAdFunteeSDKAd": [
+      "OneAdSDK"
+    ],
+    "XAdQMAd": [
+      "QuMengAdSDK"
+    ],
+    "XAdSigmobAd": [
+      "WindFoundation",
+      "WindSDK"
+    ]
+  }
+}
